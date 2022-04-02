@@ -16,9 +16,6 @@ import javax.persistence.*;
 @Entity
 public class Laptop extends Computer {
 
-    @Enumerated(EnumType.STRING)
-    private ComputerType computerType;
-
     private Double screenDiagonal;
     private Double screenResolution;
 }

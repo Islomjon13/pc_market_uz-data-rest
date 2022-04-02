@@ -22,7 +22,7 @@ public abstract class BaseEntity {
     private String name;
     private Double price;
 
-    private Double description;
+    private String description;
     private String videoLink;
     private Double warrantyYear;
 

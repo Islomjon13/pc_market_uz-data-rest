@@ -18,9 +18,6 @@ import javax.persistence.Enumerated;
 @Entity
 public class MonoBlock extends Computer {
 
-    @Enumerated(EnumType.STRING)
-    private ComputerType computerType;
-
     private Double screenDiagonal;
     private Double screenResolution;
 

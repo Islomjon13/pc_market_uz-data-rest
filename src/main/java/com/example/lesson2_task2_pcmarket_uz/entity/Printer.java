@@ -21,7 +21,7 @@ public class Printer extends BaseEntity {
     private String feature;
     private String printTechnology;
     private Double maxFormat;
-    private boolean DoubleSidePrinting;
+    private boolean doubleSidePrinting;
     private String connectivity;
     private Double blackPrintSpeed;
     private Double colorPrintSpeed;
